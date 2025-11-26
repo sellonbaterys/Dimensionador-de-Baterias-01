@@ -18,8 +18,8 @@ const SystemOption: React.FC<SystemOptionProps> = ({ icon: Icon, title, descript
         </div>
         <h4 className="relative z-10 text-2xl font-bold mt-6 text-white">{title}</h4>
       </div>
-      <div className="mt-6 px-4 text-center max-w-xs">
-        <p className={`text-sm ${isSelected ? 'text-green-300' : 'text-slate-500'}`}>{description}</p>
+      <div className="mt-6 px-2 text-center">
+        <p className={`text-sm leading-relaxed ${isSelected ? 'text-green-300' : 'text-slate-400'}`}>{description}</p>
       </div>
     </div>
 );
